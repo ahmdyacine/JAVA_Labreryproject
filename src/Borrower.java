@@ -1,25 +1,4 @@
-class Borrower {
-    private String name;
-    private int StudentId;
-
-
-
-
-
-    public Borrower(String name, int StudentId) {
-        this.name = name;
-        this.StudentId = StudentId;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public int getStudentId() {
-        return StudentId;
-    }
-
-    import java.util.ArrayList;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Borrower {
